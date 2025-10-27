@@ -2,3 +2,13 @@ cd ~/desktop/cnxRemote
 git init
 git add .
 git commit -m "primer commit"
+Conectar tu proyecto local con GitHub:
+git remote add  origin https://github.com/BASSEMBARKAOUI/Gitoo.git
+comprobar:
+git remote -v
+Confirmar que hay commits listos
+git log  --oneline
+Subir tu código a GitHub:
+git push -u origin ramita
+
+
